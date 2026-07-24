@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_primary70"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtReqistro"
+        android:layout_width="278dp"
+        android:layout_height="83dp"
+        android:backgroundTint="@color/black"
+        android:text="Reqistro "
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.304" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:hint="Escriba su correo"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Escriba su correo"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/material_dynamic_primary30"
+        android:text="Cancelar"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/material_dynamic_primary30"
+        android:text="Aceptar"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="205dp"
+        android:layout_height="156dp"
+        app:srcCompat="@drawable/img_1"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
