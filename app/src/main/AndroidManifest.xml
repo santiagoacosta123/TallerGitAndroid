@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tarea">
         <activity
+            android:name=".register"
+            android:exported="false" />
+        <activity
+            android:name=".Perfil"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
